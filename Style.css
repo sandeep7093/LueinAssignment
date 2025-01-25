@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    width: 35px;
+}
+.login{
+    position:absolute;
+    right: 30px;
+}
+.login a{
+    color: red;
+    font-size: 16px;;
+}
+.bg{
+    background:white;
+}
+.this{
+    text-decoration: underline 2px black;
+    
+    color: purple;
+    font-size: 20px;
+}
+.nav-link{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: purple;
+  
+  
+}
+.nav-link:hover{
+    text-decoration: underline black;
+}
+/*Up to navabar*/
+
+
+
+.content{
+    margin-top: 100px;
+}
+.signup{
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding:10px;
+    width: 160px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.signup:hover{
+    background: purple;
+
+}
+.signup i:hover{
+    color: white;
+}
+.signup i{
+    width: 30px;
+}
+.section li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+ul li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 16px;
+    text-align: justify;
+}
+.footerlast{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footerlast p{
+    margin: auto;
+}
